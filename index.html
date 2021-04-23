@@ -14,11 +14,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./js/index.js" defer></script>
   </head>
   <body>
-    <header>
+    <header data-aos="fade-down" data-aos-duration="800" data-aos-offset="300">
       <div class="header">
         <a href="/"><img src="./images/logo.svg" alt="Logo" /></a>
         <nav class="menu">
@@ -46,29 +48,61 @@
     </header>
     <section class="banner">
       <div class="container">
-        <h1 class="banner__title">
+        <h1 class="banner__title" data-aos="fade-down" data-aos-duration="1000">
           Devis, factures, suivi, plafonds, cotisations
         </h1>
-        <p class="banner__text">
+        <p
+          class="banner__text"
+          data-aos="fade-down"
+          data-aos-duration="500"
+          data-aos-offset="300"
+        >
           Pakko accompagne les micro-entrepreneurs et leur fait gagner du temps
           !
         </p>
         <div class="btn-group">
-          <a href="#" class="btn-group__btn btn-group__btn-main"
+          <a
+            href="#"
+            class="btn-group__btn btn-group__btn-main"
+            data-aos="fade-right"
+            data-aos-duration="1000"
             >Créer mon compte</a
           >
-          <a href="#" class="btn-group__btn">Voir la vidéo</a>
+          <a
+            href="#"
+            class="btn-group__btn"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            >Voir la vidéo</a
+          >
         </div>
-        <img class="banner__img" src="./images/banner.png" alt="Banner" />
+        <img
+          class="banner__img"
+          src="./images/banner.png"
+          alt="Banner"
+          data-aos="fade-down"
+          data-aos-duration="500"
+          data-aos-offset="300"
+        />
       </div>
     </section>
     <section class="section">
       <div class="container">
-        <h2 class="section__title">
+        <h2
+          class="section__title"
+          data-aos="fade-down"
+          data-aos-duration="500"
+          data-aos-offset="300"
+        >
           Des&nbsp;tarifs qui s'adaptent à&nbsp;votre activité !
         </h2>
         <div class="tarif">
-          <div class="tarif-item tarif-item-01">
+          <div
+            class="tarif-item tarif-item-01"
+            data-aos="fade-right"
+            data-aos-duration="500"
+            data-aos-offset="300"
+          >
             <div class="tarif-header">
               <div class="tarif-info">
                 <h3 class="tarif-info__title">Gratuit</h3>
@@ -85,7 +119,12 @@
               </ul>
             </div>
           </div>
-          <div class="tarif-item tarif-item-02">
+          <div
+            class="tarif-item tarif-item-02"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-offset="300"
+          >
             <div class="tarif-header">
               <div class="tarif-info">
                 <h3 class="tarif-info__title">Basique</h3>
@@ -102,7 +141,12 @@
               </ul>
             </div>
           </div>
-          <div class="tarif-item tarif-item-03">
+          <div
+            class="tarif-item tarif-item-03"
+            data-aos="fade-left"
+            data-aos-duration="500"
+            data-aos-offset="300"
+          >
             <div class="tarif-header">
               <div class="tarif-info">
                 <h3 class="tarif-info__title">Pro</h3>
@@ -124,11 +168,21 @@
       <div class="container">
         <div class="comment__body">
           <div class="comment__column">
-            <h2 class="comment__title">
+            <h2
+              class="comment__title"
+              data-aos="fade-right"
+              data-aos-duration="500"
+              data-aos-offset="300"
+            >
               Ils en parlent <br />
               mieux que nous
             </h2>
-            <div class="comment-card comment-card--green-blue">
+            <div
+              class="comment-card comment-card--green-blue"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-offset="300"
+            >
               <div class="comment-card__header">
                 <div class="comment-card__avatar">
                   <div class="comment-card__icon">
@@ -150,7 +204,12 @@
               </div>
               <a href="#" class="comment-card__btn"> Voir le post </a>
             </div>
-            <div class="comment-card comment-card--green">
+            <div
+              class="comment-card comment-card--green"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-offset="300"
+            >
               <div class="comment-card__header">
                 <div class="comment-card__avatar">
                   <div class="comment-card__icon">
@@ -174,7 +233,12 @@
             </div>
           </div>
           <div class="comment__column">
-            <div class="comment-card comment-card--till">
+            <div
+              class="comment-card comment-card--till"
+              data-aos="fade-left"
+              data-aos-duration="500"
+              data-aos-offset="300"
+            >
               <div class="comment-card__header">
                 <div class="comment-card__avatar">
                   <div class="comment-card__icon">
@@ -195,7 +259,12 @@
                 C’est exactement ce que je cherchais.
               </div>
             </div>
-            <div class="comment-card comment-card--green-dark">
+            <div
+              class="comment-card comment-card--green-dark"
+              data-aos="fade-left"
+              data-aos-duration="500"
+              data-aos-offset="300"
+            >
               <div class="comment-card__header">
                 <div class="comment-card__avatar">
                   <div class="comment-card__icon">
@@ -215,7 +284,12 @@
               </div>
               <a href="#" class="comment-card__btn"> Voir le post </a>
             </div>
-            <div class="comment-card comment-card--till-dark">
+            <div
+              class="comment-card comment-card--till-dark"
+              data-aos="fade-left"
+              data-aos-duration="500"
+              data-aos-offset="300"
+            >
               <div class="comment-card__header">
                 <div class="comment-card__avatar">
                   <div class="comment-card__icon">
@@ -244,7 +318,12 @@
     </section>
     <footer class="footer">
       <div class="container">
-        <div class="footer__grid">
+        <div
+          class="footer__grid"
+          data-aos="fade-down"
+          data-aos-duration="800"
+          data-aos-offset="200"
+        >
           <div class="footer__column">
             <a class="footer__column-title" href="/" class="logo">
               <img src="./images/logo.svg" alt="logo" />

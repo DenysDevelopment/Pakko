@@ -65,3 +65,7 @@ if (header) {
     { passive: true }
   );
 }
+
+
+//scroll 
+AOS.init();

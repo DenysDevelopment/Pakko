@@ -6,6 +6,7 @@ body {
   color: #100A30;
   font-size: 16px;
   font-family: "Inter", sans-serif;
+  overflow-x: hidden;
 }
 body._lock {
   overflow: hidden;
