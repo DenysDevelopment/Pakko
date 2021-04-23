@@ -12,6 +12,27 @@ body._lock {
   overflow: hidden;
 }
 
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, left top, right bottom, from(#624DE3), to(#100A30));
+  background: linear-gradient(to right bottom, #624DE3, #100A30);
+  border-radius: 20px;
+  -webkit-transition: background 0.2s linear;
+  transition: background 0.2s linear;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::selection {
+  background: #624DE3;
+  text-shadow: none;
+}
+
 a {
   text-decoration: none;
 }
