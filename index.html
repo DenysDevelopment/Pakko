@@ -20,8 +20,8 @@
     <script src="./js/index.js" defer></script>
   </head>
   <body>
-    <header data-aos="fade-down" data-aos-duration="800" data-aos-offset="300">
-      <div class="header">
+    <header>
+      <div class="header" data-aos="fade-down" data-aos-duration="800">
         <a href="/"><img src="./images/logo.svg" alt="Logo" /></a>
         <nav class="menu">
           <button class="menu__icon" aria-label="Меню" aria->
@@ -48,14 +48,20 @@
     </header>
     <section class="banner">
       <div class="container">
-        <h1 class="banner__title" data-aos="fade-down" data-aos-duration="1000">
+        <h1
+          class="banner__title"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="200"
+        >
           Devis, factures, suivi, plafonds, cotisations
         </h1>
         <p
           class="banner__text"
           data-aos="fade-down"
-          data-aos-duration="500"
-          data-aos-offset="300"
+          data-aos-once="true"
+          data-aos-duration="1000"
+          data-aos-delay="100"
         >
           Pakko accompagne les micro-entrepreneurs et leur fait gagner du temps
           !
@@ -64,15 +70,19 @@
           <a
             href="#"
             class="btn-group__btn btn-group__btn-main"
-            data-aos="fade-right"
+            data-aos="fade-down"
+            data-aos-once="true"
             data-aos-duration="1000"
+            data-aos-delay="0"
             >Créer mon compte</a
           >
           <a
             href="#"
             class="btn-group__btn"
-            data-aos="fade-left"
+            data-aos="fade-down"
+            data-aos-once="true"
             data-aos-duration="1000"
+            data-aos-delay="0"
             >Voir la vidéo</a
           >
         </div>
@@ -82,7 +92,6 @@
           alt="Banner"
           data-aos="fade-down"
           data-aos-duration="500"
-          data-aos-offset="300"
         />
       </div>
     </section>
@@ -99,7 +108,7 @@
         <div class="tarif">
           <div
             class="tarif-item tarif-item-01"
-            data-aos="fade-right"
+            data-aos="fade-down"
             data-aos-duration="500"
             data-aos-offset="300"
           >
@@ -121,7 +130,7 @@
           </div>
           <div
             class="tarif-item tarif-item-02"
-            data-aos="fade-up"
+            data-aos="fade-down"
             data-aos-duration="500"
             data-aos-offset="300"
           >
@@ -143,7 +152,7 @@
           </div>
           <div
             class="tarif-item tarif-item-03"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-duration="500"
             data-aos-offset="300"
           >
@@ -170,16 +179,15 @@
           <div class="comment__column">
             <h2
               class="comment__title"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-duration="500"
-              data-aos-offset="300"
             >
               Ils en parlent <br />
               mieux que nous
             </h2>
             <div
               class="comment-card comment-card--green-blue"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-offset="300"
             >
@@ -206,9 +214,8 @@
             </div>
             <div
               class="comment-card comment-card--green"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-duration="1000"
-              data-aos-offset="300"
             >
               <div class="comment-card__header">
                 <div class="comment-card__avatar">
@@ -235,9 +242,8 @@
           <div class="comment__column">
             <div
               class="comment-card comment-card--till"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-duration="500"
-              data-aos-offset="300"
             >
               <div class="comment-card__header">
                 <div class="comment-card__avatar">
@@ -261,9 +267,8 @@
             </div>
             <div
               class="comment-card comment-card--green-dark"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-duration="500"
-              data-aos-offset="300"
             >
               <div class="comment-card__header">
                 <div class="comment-card__avatar">
@@ -286,9 +291,8 @@
             </div>
             <div
               class="comment-card comment-card--till-dark"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-duration="500"
-              data-aos-offset="300"
             >
               <div class="comment-card__header">
                 <div class="comment-card__avatar">
@@ -318,13 +322,12 @@
     </section>
     <footer class="footer">
       <div class="container">
-        <div
-          class="footer__grid"
-          data-aos="fade-down"
-          data-aos-duration="800"
-          data-aos-offset="200"
-        >
-          <div class="footer__column">
+        <div class="footer__grid">
+          <div
+            class="footer__column"
+            data-aos="fade-down"
+            data-aos-duration="500"
+          >
             <a class="footer__column-title" href="/" class="logo">
               <img src="./images/logo.svg" alt="logo" />
             </a>
@@ -336,7 +339,11 @@
                 <a href="#" class="footer__link">faites ce que vous aimez !</a>
               </li>
             </ul>
-            <div class="footer__social">
+            <div
+              class="footer__social"
+              data-aos="fade-down"
+              data-aos-duration="500"
+            >
               <a href="#">
                 <img src="./images/facebook.svg" alt="facebook" />
               </a>
@@ -348,7 +355,11 @@
               </a>
             </div>
           </div>
-          <div class="footer__column">
+          <div
+            class="footer__column"
+            data-aos="fade-down"
+            data-aos-duration="500"
+          >
             <h4 class="footer__column-title">Fonctionnalités</h4>
             <ul class="footer__list">
               <li class="footer__item">
@@ -366,7 +377,11 @@
               </li>
             </ul>
           </div>
-          <div class="footer__column">
+          <div
+            class="footer__column"
+            data-aos="fade-down"
+            data-aos-duration="500"
+          >
             <h4 class="footer__column-title">À propos</h4>
             <ul class="footer__list">
               <li class="footer__item">
@@ -385,7 +400,11 @@
               </li>
             </ul>
           </div>
-          <div class="footer__column">
+          <div
+            class="footer__column"
+            data-aos="fade-down"
+            data-aos-duration="500"
+          >
             <h4 class="footer__column-title">Ressources</h4>
             <ul class="footer__list">
               <li class="footer__item">
